@@ -68,6 +68,7 @@ class OutlineShape extends Layer {
   render () {
     stroke(this.layerColor)
     strokeWeight(this.weight)
+    noFill()
     push()
     //translate(width/2, height/2)
     if (this.hexagonTrue) {
@@ -89,7 +90,8 @@ class DottedLines extends Layer {
   }
 
   render () {
-    fill(this.layerColor)
+    // fill(this.layerColor)
+    noFill()
     noStroke()
     push()
     //translate(width / 2, height / 2)
