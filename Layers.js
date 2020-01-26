@@ -150,7 +150,8 @@ class RingOfShapes extends Layer {
 
   render () {
     stroke(this.layerColor)
-    fill(this.fillColor)
+    // fill(this.fillColor)
+    noFill()
     strokeWeight(this.weight)
     push()
     //translate(width / 2, height / 2)

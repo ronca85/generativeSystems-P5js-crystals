@@ -28,7 +28,7 @@ function setup() {
 }
 
 function draw() {
-  // background('pink')
+  background(220, 210, 188)
 
   // go to a point on the screen and draw a pixel
   // continue to do this until we run out of room
